@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>My first SVG</title>
+</head>
+<body>
+   <div class="container">
+      <svg class="icon" width="700" height="700" viewBox="0 0 1000 1000">
+         <g stroke-width="50">
+            <rect class="square" x="50" y="50" width="900" height="900" fill="white" stroke="#8a72ca" />
+            <g class="lines" stroke="#8d451f">
+               <line x1="125" y1="150" x2="875" y2="150" />
+               <line class="line_bottom" x1="125" y1="150" x2="875" y2="150" />
+            </g>
+         </g>
+         <g>
+            <circle cx="500" cy="500" r="250" fill="#1e8d6d" />
+            <text class="text" x="50%" y="50%" dy=".3em" text-anchor="middle" fill="white" 
+               font-size="100px" font-family="Arial, sans-serif">
+               LOGO
+            </text>
+         </g>
+      </svg>
+   </div>
+</body>
+</html>

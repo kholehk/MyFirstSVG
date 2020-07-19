@@ -1,0 +1,48 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 1530px;
+   display: flex;
+}
+
+.line_bottom {
+   animation: lines linear 0.5s;
+   animation-fill-mode: forwards;
+}
+
+.icon {
+   margin: auto;
+}
+
+/* 768 */
+@media (max-width: 1099px) {
+
+   .square {
+      display: none;
+   }
+}
+
+/* 320 */
+@media (max-width: 767px) {
+
+   .lines {
+      display: none;
+   }
+}
+
+@keyframes lines {
+   0% {
+      transform: translateY(0px);
+   }
+
+   100% {
+      transform: translateY(700px);
+   }
+}
